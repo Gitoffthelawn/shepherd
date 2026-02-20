@@ -1,5 +1,62 @@
 # Changelog
 
+## Release (2026-02-20)
+
+* react-shepherd 8.0.0 (major)
+* shepherd.js 16.0.0 (major)
+
+#### :boom: Breaking Change
+* `shepherd.js`
+  * [#3352](https://github.com/shipshapecode/shepherd/pull/3352) Remove svelte and use vanilla TS ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3342](https://github.com/shipshapecode/shepherd/pull/3342) Drop support for node 18, move tests ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* `react-shepherd`, `shepherd.js`
+  * [#3144](https://github.com/shipshapecode/shepherd/pull/3144) Update to Svelte 5 ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### :rocket: Enhancement
+* `shepherd.js`
+  * [#3370](https://github.com/shipshapecode/shepherd/pull/3370) Add support for HTML attributes on buttons and cancelIcon ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3362](https://github.com/shipshapecode/shepherd/pull/3362) Remove string continuations ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3051](https://github.com/shipshapecode/shepherd/pull/3051) Allow arrow padding to be configured for a step. ([@JakeThurman](https://github.com/JakeThurman))
+* `react-shepherd`
+  * [#3339](https://github.com/shipshapecode/shepherd/pull/3339) Support React 18+ in peerDeps ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### :bug: Bug Fix
+* `shepherd.js`
+  * [#3351](https://github.com/shipshapecode/shepherd/pull/3351) Restore attachTo tabindex when tour is hidden ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3230](https://github.com/shipshapecode/shepherd/pull/3230) Add attachTo elements to the keyboard focus flow ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### :memo: Documentation
+* `react-shepherd`, `shepherd.js`
+  * [#3341](https://github.com/shipshapecode/shepherd/pull/3341) More license updates ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* Other
+  * [#3340](https://github.com/shipshapecode/shepherd/pull/3340) Update LICENSE.md ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* `shepherd.js`
+  * [#3323](https://github.com/shipshapecode/shepherd/pull/3323) Redirect to root when starting demo ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* `react-shepherd`
+  * [#3315](https://github.com/shipshapecode/shepherd/pull/3315) Update README example path ([@Poylar](https://github.com/Poylar))
+
+#### :house: Internal
+* `react-shepherd`, `shepherd.js`
+  * [#3371](https://github.com/shipshapecode/shepherd/pull/3371) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#3353](https://github.com/shipshapecode/shepherd/pull/3353) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#3240](https://github.com/shipshapecode/shepherd/pull/3240) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#3324](https://github.com/shipshapecode/shepherd/pull/3324) pnpm update ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3302](https://github.com/shipshapecode/shepherd/pull/3302) Remove scarf, bump vitest ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3140](https://github.com/shipshapecode/shepherd/pull/3140) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#3107](https://github.com/shipshapecode/shepherd/pull/3107) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+* Other
+  * [#3361](https://github.com/shipshapecode/shepherd/pull/3361) Switch to polar astro package ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3343](https://github.com/shipshapecode/shepherd/pull/3343) Update landing to tailwind 4 ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* `shepherd.js`
+  * [#3229](https://github.com/shipshapecode/shepherd/pull/3229) Add dummy app back for development ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+  * [#3111](https://github.com/shipshapecode/shepherd/pull/3111) Update to Astro 5.x ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 4
+- GitHub Actions [Bot] ([@github-actions](https://github.com/apps/github-actions))
+- Jake Thurman ([@JakeThurman](https://github.com/JakeThurman))
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+- [@Poylar](https://github.com/Poylar)
+
 ## Release (2026-02-19)
 
 * react-shepherd 7.0.2 (patch)
