@@ -1,5 +1,15 @@
 # Changelog
 
+## Release (2026-07-15)
+
+
+
+#### :house: Internal
+* [#3444](https://github.com/shipshapecode/shepherd/pull/3444) pnpm update ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 1
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
 ## Release (2026-03-11)
 
 * react-shepherd 7.0.4 (patch)
